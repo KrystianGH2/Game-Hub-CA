@@ -1,36 +1,18 @@
 .hero-container {
   display: flex;
-  overflow-x: hidden;
   position: relative;
 }
 
 .hero {
-  background-image: url(/images/bReH9ysmNf3ak2R7hoiqzd.jpg);
-  z-index: -1;
-}
-
-.hero-2 {
-  background-image: url(/images/red-dead.jpg);
-  z-index: -1;
-}
-
-.hero-opacity::after {
-  content: "";
-  position: absolute;
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-.hero,
-.hero-2 {
-  height: 230px;
-  background-size: contain;
-  aspect-ratio: 16/9;
+  background-size: cover;
   position: relative;
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
+}
+
+.heroSectionImage {
+  opacity: 0.3;
 }
 
 .hero-items {
@@ -78,18 +60,6 @@
 .hero-btn:active {
   background-color: var(--blue-10);
   transform: scale(1.07);
-}
-
-.radio-btn {
-  display: flex;
-  flex-direction: row;
-  padding: 5px;
-  gap: 5px;
-  position: absolute;
-  top: 90%;
-  left: 45%;
-  z-index: 1;
-  cursor: pointer;
 }
 
 /* game categories container */
@@ -147,6 +117,28 @@
   color: var(--blue-10);
   cursor: pointer;
   transform: scale(0.95);
+}
+
+.h3-text-games h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oxanium", cursive;
+  color: var(--gray-0);
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-6);
+  margin: 50px;
+  position: relative;
+}
+
+.h3-text-game h3::after {
+  position: absolute;
+  content: "";
+  background: var(--blue-12);
+  width: 100%;
+  height: 4px;
+  left: 0;
+  bottom: 0;
 }
 
 /* banner section  */
@@ -286,6 +278,7 @@
 
 /* games container */
 
+
 .gamesElements {
   display: flex;
   justify-content: center;
@@ -312,9 +305,8 @@
   position: relative;
 }
 
-
 .gameImages {
-  width: 350px;
+  width: 165px;
   position: relative;
 }
 
@@ -326,7 +318,11 @@
   gap: 10px;
 }
 
-.gameTitle, .gamePrice{
+.gameTitle,
+.gamePrice {
   font-size: var(--font-size-3);
   letter-spacing: var(--font-letterspacing-2);
 }
+
+
+
