@@ -12,7 +12,7 @@
 
 ## Description
 
-Welcome to GameHub, your gaming store for all things gaming! This website serves as a store for gamers, providing latest games. Built with Vite.
+This is an updated version of my GameHub CA, both links are provided over discription. The new version is built with HTML, CSS, JS and Vite. The old version is built obly with HTML and CSS
 
 ## Built With
 
