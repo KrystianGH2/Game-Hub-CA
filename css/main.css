@@ -334,12 +334,12 @@
 
 .add2cart:hover {
   background-color: var(--blue-10);
-  transform: scale(.98);
+  transform: scale(0.98);
 }
 
 .add2cart:active {
   background-color: var(--blue-10);
-  transform: scale(.98);
+  transform: scale(0.98);
 }
 
 /* footer */
@@ -406,6 +406,10 @@ footer h4::after {
   gap: 10px;
   color: var(--gray-0);
 }
+.gamehubLocation{
+  width: 250px;
+}
+
 
 .fa-location-dot,
 .fa-phone,
@@ -474,7 +478,7 @@ footer h4::after {
   .navLinks {
     display: flex;
     flex-direction: row;
-    background-color: #000000;
+    background-color:transparent;
     position: initial;
     gap: 70px;
   }
@@ -490,5 +494,39 @@ footer h4::after {
     align-items: center;
     justify-content: space-between;
     padding: 10px 30px;
+  }
+  
+  header {
+    position:sticky;
+    top: 0;
+    z-index: 3;
+    background-color: #000000be;
+    
+  }
+
+  [data-gamesContainer] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .gameImages {
+    width: 185px;
+    position: relative;
+  }
+  
+  .gamesItems {
+    max-width: 1200px;
+  }
+
+  [data-heroContainer],[data-bannerContainer] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-container, .banner-container{
+    max-width: 1440px;
   }
 }
