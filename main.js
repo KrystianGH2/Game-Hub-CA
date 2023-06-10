@@ -1,6 +1,7 @@
 import { menuBtn } from "./js/helper-functions.js";
+import { apiKey } from "./js/apikey.js";
 
-const apiKey = import.meta.env.VITE_API_KEY;
+// const apiKey = import.meta.env.VITE_API_KEY;
 
 const options = {
   method: "GET",
