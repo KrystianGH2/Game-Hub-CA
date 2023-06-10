@@ -4,7 +4,7 @@
 
 
 
-[Deployment Site](https://gamehubca.netlify.app/)
+[Deployment Site](https://gamehubcakgc.netlify.app/)
 
 [Old version](https://gamehubkgc.netlify.app/)
 
