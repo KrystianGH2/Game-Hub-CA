@@ -61,6 +61,7 @@ async function fetchUrl() {
       <small class="gameRating">${gameRating}</small>
         <p class="gameTitle">${gameTitle}</p>
         <p class="gamePrice">NOK ${gamePrice} </p>
+        <button class="add2cart">Add to cart</button>
       </div>
     </div>`;
     });
