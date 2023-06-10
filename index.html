@@ -36,7 +36,7 @@
         </div>
         <ul class="navLinks">
           <li><a class="" href="#">Home</a></li>
-          <li><a class="" href="#">Games</a></li>
+          <li><a class="" href="index.html#gamesItems">Games</a></li>
           <li><a class="" href="#">About</a></li>
           <li><a class="" href="#">Contact</a></li>
         </ul>
@@ -56,7 +56,7 @@
     </header>
 
     <main>
-      <section>
+      <section data-heroContainer="">
         <div class="hero-container">
           <div class="hero hero-opacity">
             <div class="heroImg">
@@ -67,15 +67,15 @@
               />
             </div>
             <div class="hero-items">
-              <p class="hero-text">We offer the best games</p>
-              <h1 class="hero-text-h1">Check out our games now</h1>
-              <button class="hero-btn">Show now</button>
+              <p class="hero-text">Best Open World</p>
+              <h1 class="hero-text-h1">Red Dead Redemption 2</h1>
+              <button class="hero-btn">Shop now</button>
             </div>
           </div>
         </div>
       </section>
 
-      <section>
+      <section data-gamesContainer>
         <div class="gameCategories-container">
           <h2 class="GC-h2 gc">Game Categories</h2>
           <div class="GC-category">
@@ -90,27 +90,14 @@
 
       <div class="h3-text-games"><h3>Games</h3></div>
       <section>
-        <div class="gamesContainer">
+        <div id="gamesItems" class="gamesContainer">
           <div class="gamesElements">
             <div class="gamesItems"></div>
           </div>
         </div>
       </section>
 
-      <section>
-        <div class="products-container">
-          <div class="product-items">
-            <div class="product-cards">
-              <img src="" alt="" />
-              <span class="product-rating"></span>
-              <p class="product-name"></p>
-              <p class="prduct-prize"></p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
+      <section data-bannerContainer="">
         <div class="banner-container">
           <img
             src="/images/MWII-LAUNCH-INTEL-TOUT.jpg"
@@ -151,7 +138,38 @@
     </main>
 
     <footer>
-      
+      <div class="footerContainer">
+        <div class="footerElements">
+          <div class="footerItems">
+            <div class="storeInfo">
+              <h4>Store Information</h4>
+              <p class="gamehubLocation">
+                <i class="fa-sharp fa-solid fa-location-dot"></i> GameHub Store
+                Mølleparken 4, 0459 Oslo
+              </p>
+              <p class="gamehubPhone">
+                <i class="fa-solid fa-phone"></i> +47 809 74 645
+              </p>
+              <p class="gamehubContact">
+                <i class="fa-solid fa-envelope"></i
+                ><a href="#"> gamehub@mail.com</a>
+              </p>
+            </div>
+
+            <div class="socialLinks-container">
+              <h4 data-storeInfo="">Social Follow Links</h4>
+              <div class="socialLinks">
+                <span data-icons=""><i class="fa-brands fa-facebook"></i></span>
+                <span data-icons=""
+                  ><i class="fa-brands fa-instagram"></i
+                ></span>
+                <span data-icons=""><i class="fa-brands fa-twitter"></i></span>
+                <span data-icons=""><i class="fa-brands fa-discord"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
     <div class="cover"></div>
   </body>
